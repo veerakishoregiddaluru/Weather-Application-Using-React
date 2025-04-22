@@ -123,9 +123,11 @@ function GfGWeatherApp() {
             {Math.round(weather.data.main.temp)}
             <sup className="deg">°C</sup>
           </div>
-          <div className="des-wind">
-            <p>{weather.data.weather[0].description.toUpperCase()}</p>
-            <p>Wind Speed: {weather.data.wind.speed}m/s</p>
+          <div>
+            <p className="des-wind1">
+              {weather.data.weather[0].description.toUpperCase()}
+            </p>
+            <p className="des-wind">Wind Speed: {weather.data.wind.speed}m/s</p>
           </div>
         </div>
       )}

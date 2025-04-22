@@ -19,11 +19,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  max-width: 800px;
   min-height: 440px;
   background-color: rgb(255, 255, 255);
   text-align: center;
-  margin: 128px auto;
+  /* margin: 128px auto; */
+  margin: auto;
   border-radius: 10px;
   padding-bottom: 32px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -52,7 +53,7 @@ html {
 
 .city-name {
   font-size: 1.5rem;
-  color: #444;
+  color: #8e1616;
   margin-bottom: 8px;
 }
 
@@ -65,7 +66,7 @@ html {
 .icon-temp {
   font-size: 3rem;
   font-weight: 700;
-  color: #1e2432;
+  color: #f14a00;
   text-align: center;
 }
 
@@ -76,9 +77,13 @@ html {
 
 .des-wind {
   font-weight: 500;
-  color: #666;
+  color: #69247c;
 }
-
+.des-wind1 {
+  font-weight: 500;
+  font-weight: bolder;
+  color: #1f4529;
+}
 .error-message {
   display: block;
   text-align: center;
